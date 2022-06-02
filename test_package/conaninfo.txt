@@ -1,0 +1,34 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=9
+    os=Linux
+
+[requires]
+    echo/0.1
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++
+    compiler.version=9
+    os=Linux
+
+[full_requires]
+    echo/0.1@echo/testing:50a5030bbbb13ae56bc4be41915ecd48549cb895
+
+[full_options]
+    echo:fPIC=True
+    echo:shared=False
+
+[recipe_hash]
+
+
+[env]
+
