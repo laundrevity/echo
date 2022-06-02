@@ -8,6 +8,7 @@ class EchoPackage(ConanFile):
 
     # binary configuration
     settings = "os", "compiler", "build_type", "arch"
+    requires = ["boost/1.71.0"]
     options = {"shared": [True, False], "fPIC": [True, False]}
     default_options = {"shared": False, "fPIC": True}
 
